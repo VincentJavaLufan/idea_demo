@@ -1,0 +1,10 @@
+####新的配置方式
+server:
+  port: 8082
+  servlet:
+    context-path: /luckymoney
+
+limit:
+  minMoney: 1
+  maxMoney: 9999
+  description: 最少要花${limit.minMoney}元, 最多要花${limit.maxMoney}元
